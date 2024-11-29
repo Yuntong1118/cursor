@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendyWardrobe - 時尚服飾</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 導航欄 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">TrendyWardrobe</div>
+            <button class="menu-toggle" aria-label="選單">☰</button>
+            <ul class="nav-links">
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#about">品牌故事</a></li>
+                <li><a href="#collection">新品系列</a></li>
+                <li><a href="#services">客製服務</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首頁區塊 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>TrendyWardrobe - 引領潮流，定義時尚</h1>
+            <p>探索專屬於您的時尚風格</p>
+            <a href="#collection" class="cta-button">瀏覽新品系列</a>
+        </div>
+    </section>
+
+    <!-- 品牌故事區塊 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>品牌故事</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>TrendyWardrobe 始於對時尚的熱情，我們致力於創造兼具品質與美感的服飾。</p>
+                    <p>從經典到潮流，從細節到設計，每一件單品都是我們對時尚的詮釋。</p>
+                </div>
+                <div class="about-image">
+                    <img src="imgs/brand-story.jpg" alt="品牌故事">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 新品系列區塊 -->
+    <section id="collection" class="products">
+        <div class="container">
+            <h2>新品系列</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="imgs/dress.jpg" alt="連衣裙">
+                    <h3>經典連衣裙</h3>
+                    <p>展現優雅與自信的必備單品</p>
+                    <a href="#contact" class="button">查看詳情</a>
+                </div>
+                <div class="product-card">
+                    <img src="imgs/jacket.jpg" alt="夾克">
+                    <h3>時尚夾克</h3>
+                    <p>適合任何場合的百搭選擇</p>
+                    <a href="#contact" class="button">查看詳情</a>
+                </div>
+                <div class="product-card">
+                    <img src="imgs/shoes.jpg" alt="鞋款">
+                    <h3>個性鞋款</h3>
+                    <p>讓每一步都充滿風格</p>
+                    <a href="#contact" class="button">查看詳情</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 客製服務區塊 -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>客製服務</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>量身訂製</h3>
+                    <p>依您的需求量身打造專屬服飾</p>
+                </div>
+                <div class="service-card">
+                    <h3>個性化設計</h3>
+                    <p>實現您的時尚創意</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 聯絡我們區塊 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>聯絡我們</h2>
+            <p>有任何問題或需求？歡迎與我們聯繫！</p>
+            <form action="#" method="POST" class="contact-form">
+                <label for="name">姓名：</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">電子郵件：</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">訊息：</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="button">送出</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TrendyWardrobe. 版權所有.</p>
+            <div class="footer-links">
+                <a href="#">隱私政策</a>
+                <a href="#">服務條款</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 在 </body> 標籤前添加以下行 -->
+    <script src="js/main.js"></script>
+</body>
+</html>
